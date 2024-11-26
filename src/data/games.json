@@ -1,0 +1,52 @@
+[
+    {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "description": "An open-world action-adventure game where you explore the vast kingdom of Hyrule and uncover its secrets.",
+        "image": "link-to-zelda-image"
+    },
+    {
+        "title": "Elden Ring",
+        "description": "A dark fantasy RPG developed by FromSoftware, featuring challenging combat and an expansive open world.",
+        "image": "link-to-elden-ring-image"
+    },
+    {
+        "title": "Minecraft",
+        "description": "A sandbox game that allows players to build, explore, and create in a blocky 3D world.",
+        "image": "link-to-minecraft-image"
+    },
+    {
+        "title": "Fortnite",
+        "description": "A battle royale game where players fight to be the last one standing on a constantly shrinking map.",
+        "image": "link-to-fortnite-image"
+    },
+    {
+        "title": "God of War Ragnarök",
+        "description": "The continuation of Kratos and Atreus' journey in a Norse mythological setting, with action-packed gameplay and a compelling story.",
+        "image": "link-to-god-of-war-image"
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "description": "An open-world action-adventure game that lets you explore Los Santos through the perspectives of three protagonists.",
+        "image": "link-to-gta-v-image"
+    },
+    {
+        "title": "Call of Duty: Modern Warfare II",
+        "description": "A first-person shooter game featuring tactical combat, a gripping campaign, and competitive multiplayer modes.",
+        "image": "link-to-cod-mw2-image"
+    },
+    {
+        "title": "Red Dead Redemption 2",
+        "description": "An immersive open-world western that follows the story of Arthur Morgan, a member of the Van der Linde gang.",
+        "image": "link-to-rdr2-image"
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "description": "A role-playing game where you take on the role of Geralt of Rivia, a monster hunter searching for his adopted daughter.",
+        "image": "link-to-witcher3-image"
+    },
+    {
+        "title": "Super Mario Odyssey",
+        "description": "A 3D platformer where Mario explores various kingdoms to save Princess Peach and stop Bowser's wedding plans.",
+        "image": "link-to-super-mario-image"
+    }
+]

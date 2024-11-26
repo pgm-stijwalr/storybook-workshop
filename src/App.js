@@ -1,37 +1,33 @@
 import "./output.css";
 import Button from "./components/Button";
-import Stack from "./components/Stack";
+import Card from "./components/Card";
+import "./data/games.json";
 
 function App() {
-    const cardSM = {
+    const buttonSM = {
         backgroundColor: "#ffffff",
         label: "Press Me",
         size: "sm",
     };
 
-    const cardMD = {
+    const buttonMD = {
         backgroundColor: "#ffffff",
         label: "Press Me",
         size: "md",
     };
-    const cardLG = {
+    const buttonLG = {
         backgroundColor: "#ffffff",
         label: "Press Me",
         size: "lg",
     };
 
-    const stackH = {
-        spacing: 2,
-        wrap: false,
-        direction: "row",
-        numberOfChildren: 4,
+    const card = {
+        title: "Card Title",
+        description: "This is a card description",
+        backgroundColor: "#ffffff",
+        handleClick: () => alert("You clicked me!"),
     };
-    const stackV = {
-        spacing: 2,
-        wrap: false,
-        direction: "column",
-        numberOfChildren: 4,
-    };
+
     return (
         <main className="bg-gray-800 text-gray-300 p-4">
             <div className="text-center">
@@ -47,18 +43,15 @@ function App() {
                 <div>
                     <h2 className="text-2xl font-semibold">Buttons</h2>
                     <h3 className="text-xl">Small</h3>
-                    <Button {...cardSM} />
+                    <Button {...buttonSM} />
                     <h3>Medium</h3>
-                    <Button {...cardMD} />
+                    <Button {...buttonMD} />
                     <h3>Large</h3>
-                    <Button {...cardLG} />
+                    <Button {...buttonLG} />
                 </div>
                 <div>
                     <h2 className="text-2xl font-semibold">Cards</h2>
-                    <h3 className="text-xl">Horizontal Stack</h3>
-                    <Stack {...stackH} />
-                    <h3 className="text-xl">Vertical Stack</h3>
-                    <Stack {...stackV} />
+                    <Card {...card} />
                 </div>
             </div>
         </main>

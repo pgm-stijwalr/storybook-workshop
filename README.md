@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## Introductie:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Storybook is een geweldige tool voor frontend-ontwikkeling die je helpt om componenten los van je main project te ontwikkelen en te testen. Dit betekent dat je de functionaliteit van je componenten kunt controleren zonder dat dit invloed heeft op de rest van je applicatie. In deze tutorial laat ik je zien hoe je Storybook kunt gebruiken om je componenten te verbeteren en te testen. We gaan niet alleen kijken naar hoe je je componenten optimaliseert, maar ook hoe je interacties kunt testen, documentatie kunt maken, en zelfs gebruik kunt maken van handige addons. Door Storybook in je ontwikkelproces te integreren, kun je ervoor zorgen dat je componenten goed werken, makkelijk hergebruikt kunnen worden en goed gedocumenteerd zijn en dat allemaal zonder dat dit je andere code beïnvloedt.
 
-## Available Scripts
+## Installatie:
 
-In the project directory, you can run:
+Voordat we met Storybook aan de slag gaan, moeten we eerst alles installeren, inclusief React als je dat nog niet hebt:
 
-### `npm start`
+1. **Maak een nieuwe React-app aan**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Dit doe je door het volgende commando in je terminal in te voeren:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    `npx create-react-app <naam van je app>`
 
-### `npm test`
+2. **Installeer Storybook**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Het belangrijkste onderdeel van deze tutorial is Storybook zelf. Om de nieuwste versie van Storybook te krijgen, voer je het volgende commando uit in de root van je project:
 
-### `npm run build`
+    `npx storybook@latest init`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Dit zorgt ervoor dat de laatste versie van Storybook geïnstalleerd wordt.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Na het initialiseren van Storybook, zie je twee nieuwe mappen verschijnen in je project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   **.storybook**: Deze map bevat de configuratiebestanden `main.js` en `preview.js`. Deze bestanden worden gebruikt om de instellingen van Storybook te beheren.
+-   **src/stories**: Hier komen alle "stories" van je componenten. Dit is de map waar je de Storybook-codes plaatst, die je componenten isoleren en documenteren zodat je ze kunt testen en visualiseren.
 
-### `npm run eject`
+Met deze stappen ben je klaar om aan de slag te gaan met Storybook!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run beide applicaties:
+npm start
+npm run storybook
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Configuratie
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Zodat ik net heb verteld heb je in je .storybook folder 2 bestanden `main.js` en `preview.js` . We begginen met namelijk `main.js` :
+Hierin definieer je de instelling van Storybook, zoals welke verhalen je wilt tonen, welke addons je wilt gebruiken, en welke type van componenten je wilt laten renderen
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Volgende bestand was onze `preview.js` hier kan je globale instellingen definieren zoals decorateurs of parameters. Settings die voor al je stories gaan tellen
 
-## Learn More
+Met deze configuratie ben je in staat om Storybook in te stellen en te gebruiken voor je volgend project! Het mogelijkheid om extra configuratie toe te voegen kan altijd naarmate je project groeit!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## BasisFunctionaliteit
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+(informatie)
 
-### Code Splitting
+## Geavanceerde functionaliteiten
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+(informatie)
 
-### Analyzing the Bundle Size
+## Afbeeldingen
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+(informatie)
 
-### Making a Progressive Web App
+## Best Practices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+(informatie)
 
-### Advanced Configuration
+## Toekomstie updates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+(informatie)
 
-### Deployment
+## Bronvermelding
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+StoryBook doc: https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/
 
-### `npm run build` fails to minify
+Storybook with React (complete tutorial): https://www.youtube.com/watch?v=dwtmz5PHWDg&t=447s
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Github Repo
+
+https://github.com/pgm-stijwalr/storybook-workshop
