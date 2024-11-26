@@ -2,51 +2,36 @@
     {
         "title": "The Legend of Zelda: Breath of the Wild",
         "description": "An open-world action-adventure game where you explore the vast kingdom of Hyrule and uncover its secrets.",
-        "image": "link-to-zelda-image"
+        "image": "https://media.wired.com/photos/633c95ef85e7a4cc2f802256/16:9/w_2400,h_1350,c_limit/Breath-of-the-Wild-Casual-Gamer-Culture.jpg"
     },
     {
         "title": "Elden Ring",
         "description": "A dark fantasy RPG developed by FromSoftware, featuring challenging combat and an expansive open world.",
-        "image": "link-to-elden-ring-image"
+        "image": "https://store-images.s-microsoft.com/image/apps.30323.13715792864578983.571a71b5-a2e5-4970-8492-94d49bf62526.1dec2def-877b-4139-9abf-7958a9ca4bd3?mode=scale&q=90&h=720&w=1280&background=%23FFFFFF"
     },
     {
         "title": "Minecraft",
         "description": "A sandbox game that allows players to build, explore, and create in a blocky 3D world.",
-        "image": "link-to-minecraft-image"
+        "image": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Vanilla-PMP_Collection-Carousel-0_Buzzy-Bees_1280x768.jpg"
     },
     {
         "title": "Fortnite",
         "description": "A battle royale game where players fight to be the last one standing on a constantly shrinking map.",
-        "image": "link-to-fortnite-image"
+        "image": "https://store-images.s-microsoft.com/image/apps.62394.70702278257994163.1152c6f1-f586-40eb-a61e-0f8bad1ee621.3a22a885-cb53-41a8-b9e6-0bc4053a9bac"
     },
     {
         "title": "God of War Ragnarök",
         "description": "The continuation of Kratos and Atreus' journey in a Norse mythological setting, with action-packed gameplay and a compelling story.",
-        "image": "link-to-god-of-war-image"
+        "image": "https://i0.wp.com/www.consolecreatures.com/wp-content/uploads/2022/11/reviewgodofwar.webp"
     },
     {
         "title": "Grand Theft Auto V",
         "description": "An open-world action-adventure game that lets you explore Los Santos through the perspectives of three protagonists.",
-        "image": "link-to-gta-v-image"
+        "image": "https://www.leisurely.co.za/wp-content/uploads/2023/09/GTAv.webp"
     },
     {
         "title": "Call of Duty: Modern Warfare II",
         "description": "A first-person shooter game featuring tactical combat, a gripping campaign, and competitive multiplayer modes.",
-        "image": "link-to-cod-mw2-image"
-    },
-    {
-        "title": "Red Dead Redemption 2",
-        "description": "An immersive open-world western that follows the story of Arthur Morgan, a member of the Van der Linde gang.",
-        "image": "link-to-rdr2-image"
-    },
-    {
-        "title": "The Witcher 3: Wild Hunt",
-        "description": "A role-playing game where you take on the role of Geralt of Rivia, a monster hunter searching for his adopted daughter.",
-        "image": "link-to-witcher3-image"
-    },
-    {
-        "title": "Super Mario Odyssey",
-        "description": "A 3D platformer where Mario explores various kingdoms to save Princess Peach and stop Bowser's wedding plans.",
-        "image": "link-to-super-mario-image"
+        "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt28e606b2456cb070/66b9c2ddbc05ee6647ee7d58/MW2009Back.jpg"
     }
 ]

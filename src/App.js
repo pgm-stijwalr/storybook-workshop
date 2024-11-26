@@ -1,7 +1,7 @@
 import "./output.css";
 import Button from "./components/Button";
 import Card from "./components/Card";
-import "./data/games.json";
+import games from "./data/games.json";
 
 function App() {
     const buttonSM = {
@@ -39,19 +39,40 @@ function App() {
                     your components.
                 </p>
             </div>
-            <div className="flex gap-2 flex-wrap card-list mt-5">
-                <div>
-                    <h2 className="text-2xl font-semibold">Buttons</h2>
-                    <h3 className="text-xl">Small</h3>
-                    <Button {...buttonSM} />
-                    <h3>Medium</h3>
-                    <Button {...buttonMD} />
-                    <h3>Large</h3>
-                    <Button {...buttonLG} />
+            <div className=" mt-5">
+                <div className="flex gap-2">
+                    <div>
+                        <h2 className="text-2xl font-semibold">Buttons</h2>
+                        <h3 className="text-xl">Small</h3>
+                        <Button {...buttonSM} />
+                        <h3>Medium</h3>
+                        <Button {...buttonMD} />
+                        <h3>Large</h3>
+                        <Button {...buttonLG} />
+                    </div>
+                    <div>
+                        <h2 className="text-2xl font-semibold">Cards</h2>
+                        <Card {...card} />
+                    </div>
                 </div>
-                <div>
-                    <h2 className="text-2xl font-semibold">Cards</h2>
-                    <Card {...card} />
+                <div className="mt-5">
+                    <h2 className="text-2xl font-semibold">
+                        Card render with Data
+                    </h2>
+                    <div className="flex gap-2">
+                        {games.map((game, index) => (
+                            <Card
+                                key={index}
+                                title={game.title}
+                                description={game.description}
+                                backgroundColor="#ffffff"
+                                image={game.image}
+                                handleClick={() =>
+                                    alert(`You clicked on ${game.title}`)
+                                }
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </main>

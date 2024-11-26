@@ -12,5 +12,6 @@ export const CardStory = {
         title: "Title",
         description: "Description",
         filter: "0 0 0.5rem rgba(0, 0, 0, 0.1)",
+        image: "https://via.placeholder.com/150",
     },
 };
