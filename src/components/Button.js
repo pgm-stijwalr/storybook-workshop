@@ -8,11 +8,15 @@ function Button({ label, backgroundColor = "red", size = "md", handleClick }) {
         backgroundColor,
         padding: `${scale * 0.5}rem ${scale * 1}rem`,
         border: "none",
+        borderRadius: `0.5rem`,
+        boxShadow: "0 0 0.5rem rgba(0, 0, 0, 0.1)",
+        width: "fit-content",
+        color: "black",
     };
     return (
-        <button onClick={handleClick} style={style}>
+        <div onClick={handleClick} style={style}>
             {label}
-        </button>
+        </div>
     );
 }
 
